@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express": "^4.17.3",
+    "select-random-file": "^1.2.0",
+    "unsplash": "^4.2.0"
+  }
+}
