@@ -1,2 +1,1 @@
-# wallpaper-api
- API for wallpapers :)
+# what the fuck is a readme
