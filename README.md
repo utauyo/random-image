@@ -1,1 +1,1 @@
-# what the fuck is a readme
+# http://srv.madas.xyz:42069/
