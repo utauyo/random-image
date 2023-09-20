@@ -1,7 +1,22 @@
 {
+  "name": "random-image",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madasxyz/random-image.git"
+  },
+  "author": "madas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madasxyz/random-image/issues"
+  },
+  "homepage": "https://github.com/madasxyz/random-image#readme",
   "dependencies": {
-    "express": "^4.17.3",
-    "select-random-file": "^1.2.0",
-    "unsplash": "^4.2.0"
+    "express": "^4.18.2"
   }
 }
