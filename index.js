@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
-const fs = require('fs');
 
 // Config
 const port = 3000
