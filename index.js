@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
 const fs = require('fs');
+const fs = require('fs');
 
-// Config:
-const port = 42069
+// Config
+const port = 3000
 const dir = `${__dirname}/images`
 
 // The "code"
@@ -15,6 +16,7 @@ app.get('/', (req, res) => {
     })
 })
 
+// Starts the web server
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-  })
+    console.log(`random-image listening on port ${port}`)
+})
