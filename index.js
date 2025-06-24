@@ -10,7 +10,7 @@ const dir = `${__dirname}/images`
 app.get('/', (req, res) => {
     fs.readdir(dir, (err, files) => {
         if(err) throw err
-        const file = files[Math.floor(Math.random() * files.length + 1)]
+        const file = files[Math.floor(Math.random() * files.length)]
         res.sendFile(`${dir}/${file}`)
     })
 })
