@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/madasxyz/random-image#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^5.1.0"
   }
 }
